@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_node - insert left
+ * binary_tree_insert_left - insert left
  * @parent: address to the parent node
  * @value: the data part of the node
  *
@@ -25,6 +25,6 @@ binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 		parent->left->parent = leftnode;
 	}
 	parent->left = leftnode;
-	
+
 	return (leftnode);
 }
