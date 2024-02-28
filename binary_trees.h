@@ -1,9 +1,11 @@
 #ifndef _BINARY_TREES_H_
 #define _BINARY_TREES_H_
 
+#define max(a, b) ((a) > (b) ? (a): (b))
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 /**
  * struct binary_tree_s - Binary tree node
